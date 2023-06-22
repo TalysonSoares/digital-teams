@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --gray1: #282828;
+    --gray2: #343434;
+    --gray3: #404040;
+    --pink: #c61067;
+    --light: #ffffff;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gray1);    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    padding: 16px 100px;
+}
+
+header img {
+    display: block;
+    height: 50px;
+}
+
+header .busca {
+    width: 500px;
+    position: relative;
+}
+
+header .busca input {
+    width: 100%;
+    height: 50px;
+    background-color: var(--gray2);
+    border-radius: 8px;
+    padding-left: 16px;
+    border: 3px solid var(--gray3);
+}
+
+header .busca input:focus {
+    border-color: var(--pink);
+}
+
+header .busca box-icon {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    fill: var(--light);
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
