@@ -79,6 +79,36 @@ header .busca box-icon:hover {
     margin-top: 60px;
 }
 
+
+#equipes h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#equipes h3 button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--pink);
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#equipes h3 button:hover {
+    background-color: var(--pink);
+}
+
+#equipes h3 button box-icon {
+    fill: var(--pink);
+}
+
 #equipes ul {
     margin-top: 26px;
     display: flex;
@@ -89,4 +119,45 @@ header .busca box-icon:hover {
 #equipes ul li {
     width: calc(25% - 12px);
     background-color: var(--gray2);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+#equipes ul li h4 {
+    opacity: .7;
+}
+
+#equipes ul li div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+#equipes ul li div h2 {
+    opacity: .3;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#equipes ul li div button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--pink);
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#equipes ul li div button:hover {
+    background-color: var(--pink);
+}
+
+#equipes ul li div button box-icon {
+    fill: var(--pink);
 }
