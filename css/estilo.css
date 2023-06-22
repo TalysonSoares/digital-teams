@@ -70,3 +70,23 @@ header .busca box-icon {
     transition-duration: 300ms;
 }
 
+header .busca box-icon:hover {
+    fill: var(--pink);
+}
+
+#equipes {
+    padding: 0 100px;
+    margin-top: 60px;
+}
+
+#equipes ul {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#equipes ul li {
+    width: calc(25% - 12px);
+    background-color: var(--gray2);
+}
